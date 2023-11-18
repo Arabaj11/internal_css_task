@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <style>
+        nav {
+
+            text-align: center;
+            display: flex;
+            position: sticky;
+            top: 0;
+        }
+
+        nav div ul {
+            display: flex;
+            list-style-type: none;
+        }
+
+        nav div li a {
+            text-decoration: none;
+            padding: 10px;
+            padding-left: 50px;
+            color: white;
+        }
+
+        .logo {
+            width: 10%;
+
+        }
+
+        .navbar {
+            margin-left: 10px;
+            background-color: rgb(49, 49, 107);
+            width: 100%;
+        }
+
+        .banner {
+            margin-top: 10px;
+        }
+
+        .courses {
+
+            /* height: 470px; */
+            display: flex;
+            margin-top: 30px;
+        }
+
+
+        .box {
+            flex: 25;
+            margin: 5px;
+            background-color: rgb(222, 174, 198);
+            border: solid black;
+            padding: 10px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+        .box img {
+
+            border-top-left-radius: 100px;
+            border-top-right-radius: 100px;
+            border-bottom-left-radius: 100px;
+            border-bottom-right-radius: 100px;
+            margin-left: 60px;
+            margin-top: 20px;
+        }
+
+        .youtube {
+            display: flex;
+            margin-top: 30px;
+        }
+
+        .youtube div {
+            flex: 25;
+            margin: 10px;
+        }
+
+        .map {
+            display: flex;
+
+        }
+
+        .maps {
+            flex: 50;
+            margin: 5px;
+        }
+
+        .form {
+            flex: 50;
+            margin: 5px;
+            border: solid black;
+            /* padding: 50px; */
+            /* padding-left: 238px;
+            padding-right: 238px;
+            margin-right: 7px;
+            margin-left: 5px; */
+             
+
+        }
+
+
+
+        footer {
+            background-color: black;
+            color: aliceblue;
+            height: 200px;
+        }
+
+
+        @media screen and (max-width:700px) {
+
+            .courses,
+            .youtube,
+            .map {
+
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- My name is Arbaj -->
+
+    <nav>
+        <div class="logo" style="background-color:  rgb(49, 49, 107); color: white;">
+            <h1>iGAP </h1>
+
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">courses</a></li>
+                <li><a href="">contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="banner">
+        <img src="assets/banner1.png" alt="" width="100%" height="500">
+    </section>
+
+    <section class="courses">
+        <div id="mern" class="box">
+            <label for="" style="text-align: center;"></label><img src="assets/msd1.jpg" alt="" height="150"
+                width="200"></label>
+            <h3 style="text-align: center;">MEARN</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, harum cupiditate laborum rerum vero
+                iste quidem aliquid quia alias eum esse ex, eos doloribus id necessitatibus, modi adipisci reprehenderit
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni labore, in cumque sapiente explicabo
+                delectus expedita laboriosam autem fugit, rem quia ad tempore perspiciatis beatae distinctio minus
+                provident necessitatibus? Optio?</p>
+        </div>
+        <div id="mean" class="box">
+            <img src="assets/msd2.jpg" alt="" height="150" width="200">
+            <h3 style="text-align: center;">MEAN</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, harum cupiditate laborum rerum vero
+                iste quidem aliquid quia alias eum esse ex, eos doloribus id necessitatibus, modi adipisci reprehenderit
+                nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit debitis sint quis! Nesciunt
+                dignissimos neque atque perferendis impedit. Ipsum vel voluptatibus ex amet perspiciatis sunt autem
+                recusandae doloremque nihil necessitatibus! </p>
+        </div>
+        <div id="java" class="box">
+            <img src="assets/msd7.jpg" alt="" height="150" width="200">
+            <h3 style="text-align: center;">JAVA</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, harum cupiditate laborum rerum vero
+                iste quidem aliquid quia alias eum esse ex, eos doloribus id necessitatibus, modi adipisci reprehenderit
+                nobis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio voluptate placeat soluta dolores
+                adipisci illum voluptates. Quis quo maiores voluptas, voluptatibus unde facere saepe voluptates illo
+                doloremque, dolorum, commodi sequi?</p>
+        </div>
+        <div id="DOTNET" class="box">
+            <img src="assets/msd8.jpg" alt="" height="150" width="200">
+            <h3 style="text-align: center;">MEARN</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, harum cupiditate laborum rerum vero
+                iste quidem aliquid quia alias eum esse ex, eos doloribus id necessitatibus, modi adipisci reprehenderit
+                nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus reiciendis minus, sequi
+                aperiam at dolorem mollitia cumque quod praesentium dolorum fugit inventore laboriosam vel animi nobis,
+                tempora perferendis recusandae sapiente.</p>
+        </div>
+    </section>
+    <!-- youtube vidio -->
+    <section class="youtube">
+        <div class="vidio">
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/My4_R-XhsRE"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+        <div class="vidio">
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/eGhladD6kCg"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+    </section>
+    <section class="map">
+        <div class="maps">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15286.691143362392!2d74.23609624382992!3d16.693249798797186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1003e8dd18f77%3A0x8145dfbd008c138d!2sRajarampuri%2C%20Kolhapur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1691238688328!5m2!1sen!2sin"
+                width="100%" height="608" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="form">
+            
+                <form action="" style="font-weight: bold;">
+                    <h1 style="text-align: center;">Registration Form</h1>
+                    <table style="margin: auto;">
+                        <tr>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td><label for="">First Name : </label></td>
+                            <td><input type="text" placeholder="enter your first name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Last Name : </label></td>
+                            <td><input type="text" placeholder="enter your second name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Gender :</label></td>
+                            <td><label for=""><input type="radio" name="gender" id="">Male</label>
+                                <label for=""><input type="radio" name="gender" id="">Female</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Submit Date :</label></td>
+                            <td><input type="date" name="" id=""></td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Email:</label></td>
+                            <td><input type="email" name="" id="" placeholder="E-mail"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Number:</label></td>
+                            <td><input type="number" name="" id="" placeholder="enter your mobile number"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Address:</label></td>
+                            <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" value="Submit">
+                                <input type="reset" value="Reset"></td>
+                        </tr>
+                    </table>
+                    
+
+                </form>
+           
+        </div>
+    </section>
+    <footer>
+        <h1>
+            <h1>Footer</h1>
+        </h1>
+    </footer>
+
+</body>
+
+</html>
